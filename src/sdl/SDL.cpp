@@ -87,6 +87,9 @@
 #include <sys/poll.h>
 #endif
 
+// added to allow Emsripten support
+#include <emscripten.h>
+
 extern void remoteInit();
 extern void remoteCleanUp();
 extern void remoteStubMain();
