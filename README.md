@@ -17,5 +17,5 @@ cmake .. -DENABLE_SDL=ON -DENABLE_WX=OFF -DENABLE_NLS=OFF -DENABLE_LINK=OFF -DEN
 Then, run this command:
 ```bash
 emmake make -j [number of cores]
-emcc -02 -lopenal -lSDL -s "USE_ZLIB=1;USE_SDL=2;USE_LIBPNG=1" project.bc project.js
+emcc -02 -lopenal -lSDL -s USE_ZLIB=1 -s USE_SDL=2 -s USE_LIBPNG=1 project.bc project.js
 ```
