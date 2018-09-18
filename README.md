@@ -5,5 +5,5 @@ Game Boy Advance Emulator in Webassembly. Based upon the popular [Visual Boy Adv
 ## Building
 
 ```bash
-
+git clone https://github.com/TheGreatRambler/vbam.js.git
 ```
